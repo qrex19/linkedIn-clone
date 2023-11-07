@@ -1,23 +1,20 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Feed from './Feed'
+import "./App.css";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import Feed from "./Feed";
 
 function App() {
   return (
     <div className="App">
-
-      <Header/>
-
+      <Header />
 
       <div className="app__body">
-        <Sidebar/>
+        <Sidebar />
         <Feed />
         {/* widjets */}
       </div>
-        
     </div>
   );
 }
